@@ -1,5 +1,10 @@
 import Comentario from './clases/Comentario'
-    
+import 'bootstrap/dist/css/bootstrap.min.css'
+//import './css/style.css'
+import "./sass/style.scss";
+
+//const css = require('./css/style.css').toString();
+
 let x = 3
 const a = 10
     
@@ -16,3 +21,5 @@ mipedido
     .finally(() => console.log("Se finalizo la promesa"))
 
 console.log(mipedido);
+
+com.obtenerCategorias1()

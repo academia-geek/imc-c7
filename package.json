@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "gh-pages -d build"
+    "build": "gh-pages -d build",
+    "serve": "npx webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,22 @@
     "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.4",
+    "@popperjs/core": "^2.9.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.2.2",
-    "gh-pages": "^3.2.0",
+    "bootstrap": "^5.0.1",
+    "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "sass": "^1.34.1",
+    "sass-loader": "^12.0.0"
   }
 }

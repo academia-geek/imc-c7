@@ -1,0 +1,7 @@
+body {
+    @if 1 < 0 {
+        background-color: blueviolet;
+    } @else {
+        background-color: red;
+    }
+}
